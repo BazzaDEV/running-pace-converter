@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <div className='flex w-full h-screen'>
-      <Card className='m-auto max-w-xl'>
+      <Card className='m-auto max-w-md border-transparent shadow-none'>
         <CardHeader>
           <CardTitle>Running Pace Converter</CardTitle>
           <CardDescription>Switch between different pace measurements.</CardDescription>
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           
           <div>
-            <p className='text-slate-500'><b>Estimate: </b>To convert min/km to min/miles, multiply by 1.609.</p>
+            <p className='text-sm text-slate-500'><b>Estimate: </b>To convert min/km to min/miles, multiply by 1.609.</p>
           </div>
         </CardContent>
       </Card>
